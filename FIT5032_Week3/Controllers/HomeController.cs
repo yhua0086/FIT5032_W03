@@ -21,6 +21,7 @@ namespace FIT5032_Week3.Controllers
             Hello hello = new Hello();
             ViewBag.Message = hello.GetHello();
 
+            //this following two lane are about dictionary method
             ExampleDictionary ed = new ExampleDictionary();
             ed.Example();
 
